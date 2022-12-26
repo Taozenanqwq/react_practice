@@ -1,0 +1,32 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  column-gap: 15rem;
+  border-bottom: 1rem solid #f2f2f2;
+  justify-content: center;
+  margin-bottom: 20rem;
+}
+.pic {
+  width: 250rem;
+  height: 150rem;
+}
+.info {
+  position: relative;
+  width: 450rem;
+}
+.title {
+  font-weight: 700;
+}
+.desc {
+  color: rgb(126, 126, 126);
+}
+.price {
+  position: absolute;
+  bottom: 5rem;
+  left: 0;
+}
+.counter {
+  position: absolute;
+  bottom: 5rem;
+  right: 5rem;
+}

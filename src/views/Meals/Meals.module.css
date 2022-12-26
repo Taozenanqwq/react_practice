@@ -1,0 +1,6 @@
+.items {
+  height: calc(100vh - 100rem);
+  width: 100%;
+  padding-bottom: 130rem;
+  overflow: auto;
+}

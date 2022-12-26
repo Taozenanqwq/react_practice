@@ -1,0 +1,22 @@
+.filter_wrapper {
+  display: flex;
+  align-items: center;
+  border: 1px solid grey;
+  height: 60rem;
+  width: 650rem;
+  margin: 20rem 50rem;
+  border-radius: 50rem;
+  padding: 5rem 10rem;
+  column-gap: 10rem;
+}
+.search {
+  width: 40rem;
+  height: 40rem;
+  color: lightgray;
+}
+.search_input {
+  border: none;
+  outline: none;
+  flex: 1;
+  font-size: 30rem;
+}

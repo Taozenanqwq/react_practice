@@ -1,0 +1,15 @@
+.counter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 10rem;
+}
+
+.sub,
+.add {
+  width: 40rem;
+  height: 40rem;
+}
+.add {
+  color: rgb(255, 196, 0);
+}

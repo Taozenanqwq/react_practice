@@ -1,0 +1,31 @@
+.checkout_cart {
+  position: absolute;
+  bottom: 15rem;
+  left: 30rem;
+  right: 30rem;
+  background: #313131;
+  height: 80rem;
+  border-radius: 80rem;
+  color: white;
+}
+.checkout_price {
+  position: absolute;
+  left: 120rem;
+  top: 25rem;
+  font-size: 34rem;
+  font-weight: 700;
+  line-height: 30rem;
+}
+.checkout_pay {
+  position: absolute;
+  height: 80rem;
+  top: 0;
+  right: 0;
+  padding: 0 25rem;
+  font-size: 30rem;
+  line-height: 80rem;
+  border-radius: 80rem;
+  letter-spacing: 2rem;
+  color: black;
+  background: #fac02e;
+}

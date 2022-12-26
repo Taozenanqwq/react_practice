@@ -1,0 +1,112 @@
+.shop_cart {
+  position: absolute;
+  bottom: 15rem;
+  left: 30rem;
+  right: 30rem;
+  background: #313131;
+  height: 80rem;
+  border-radius: 80rem;
+  color: white;
+}
+.shop_bag {
+  position: absolute;
+  left: 0;
+  top: -10rem;
+  height: 100rem;
+  width: 100rem;
+  background: url('../../../../public/static/images/shop_bag.png') no-repeat;
+  background-size: 100rem 100rem;
+}
+.total_count {
+  position: absolute;
+  right: 0;
+  top: -20rem;
+  transform: translate(50%, 0);
+  min-width: 40rem;
+  height: 40rem;
+  padding: 0 8rem;
+  background: red;
+  border-radius: 40rem;
+  text-align: center;
+}
+.total_price {
+  position: absolute;
+  left: 120rem;
+  top: 25rem;
+  font-size: 34rem;
+  font-weight: 700;
+  line-height: 30rem;
+}
+.has_item_price {
+  color: white;
+}
+.no_item_price {
+  color: #969696;
+}
+.settle_button {
+  position: absolute;
+  height: 80rem;
+  top: 0;
+  right: 0;
+  padding: 0 25rem;
+  font-size: 30rem;
+  line-height: 80rem;
+  border-radius: 80rem;
+  letter-spacing: 2rem;
+}
+.has_item_button {
+  color: black;
+  background: #fac02e;
+}
+.no_item_button {
+  color: #969696;
+  background: #5d5d5d;
+}
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+.hidden {
+  display: none;
+}
+
+.pop_cart {
+  position: fixed;
+  height: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: white;
+  border-radius: 60rem 60rem 0 0;
+  transition: all 0.3s;
+}
+.popped {
+  height: 1300rem;
+}
+.cart_detail_top {
+  display: flex;
+  justify-content: space-between;
+  margin: 50rem 0;
+  padding: 0 30rem;
+}
+.top_left {
+  font-size: 30rem;
+  font-weight: 700;
+}
+.top_right {
+  color: rgb(175, 175, 175);
+}
+.no_item_notice {
+  margin-top: 300rem;
+  font-size: 30rem;
+  font-weight: 700;
+  text-align: center;
+  color: rgb(175, 175, 175);
+}
+.cart_items {
+  height: 1170rem;
+}
